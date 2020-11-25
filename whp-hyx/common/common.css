@@ -1,0 +1,56 @@
+/* 主背景色(橙色) */
+.main-bg-color {
+	background-color: #fdc100;
+
+}
+
+.mian-colot100 {
+	color: #fdc100;
+}
+
+/* 主点击背景色(浅橙色) */
+.main-bg-hover-color {
+	background-color: rgba(250, 206, 63, .8);
+}
+
+/* 主字体颜色 */
+.main-text-color {
+	color: #FD6801;
+}
+
+
+
+
+/* 主边框颜色(灰色) */
+.main-border-color {
+	border-color: #F1F1F1;
+}
+
+
+.position-fixed-0 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+
+/* 没有数据 */
+.nodata {
+	color: #666666;
+	font-size: 36rpx;
+	margin: 300rpx auto;
+	text-align: center;
+}
+
+/* 验证表示*号 */
+.chcked-vaild::before {
+	content: "*";
+	color: #e02433;
+}

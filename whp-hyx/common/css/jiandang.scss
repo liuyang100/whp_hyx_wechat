@@ -1,0 +1,228 @@
+.tabs {
+	height: 84rpx;
+
+	.tab-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 32rpx;
+
+		.tab-item-title {
+			padding: 4rpx 0;
+			margin-left: 10rpx;
+			margin-right: 10rpx;
+		}
+
+		.tab-item-title-active {
+			border-bottom: 4rpx solid #fdc100;
+			color: #fdc100;
+		}
+	}
+}
+
+
+.shop-list {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+	padding: 10rpx 30rpx 20rpx 30rpx;
+	color: #333333;
+	border-bottom: 4rpx solid #ffffff;
+
+	.text-title {
+		width: 100%;
+		border-bottom: 1px solid #cccccc;
+		display: flex;
+		font-size: 30rpx;
+
+		.name {
+			flex: 1;
+			overflow: hidden;
+			padding-right: 20rpx;
+		}
+
+		.delete {
+			flex-shrink: 0;
+			color: #007aff;
+		}
+	}
+
+	.redio-list {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+
+		.rlabel {
+			display: flex;
+			align-items: center;
+			padding-right: 0;
+			font-size: 28rpx;
+			width: 33.33%;
+			height: 50rpx;
+			margin: 10rpx 0 0 0;
+			text {
+				height: 50rpx;
+				white-space: nowrap;
+				line-height: 50rpx;
+			}
+		}
+	}
+}
+
+.evan-form-show {
+	.evan-form-item {
+		.form-input {
+			font-size: 28rpx;
+			color: #666;
+			text-align: right;
+		}
+		.picker {
+			width: 100%;
+			height: 100%;
+		}
+
+		.text_overfidden {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			padding-left: 30rpx;
+		}
+	}
+}
+
+.mynowarp {
+	white-space: nowrap;
+}
+.reqired {
+	font-size: 28rpx;
+	color: #333333;
+	&::before{
+		content: '*';
+		color: #dc1402;
+	}
+}
+.unreqired{
+	font-size: 28rpx;
+	&::before{
+		content: '*';
+		color: transparent;
+	}
+}
+.upload_item {
+	&_content {
+		width: 160rpx;
+		height: 160rpx;
+		border-radius: 10rpx;
+		border: 1rpx dashed #666666;
+		background-color: #fefefe;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&_image {
+			width: 130rpx;
+			height: 130rpx;
+			border-radius: 4px;
+		}
+
+		&_haost {
+			font-size: 60rpx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #666666;
+		}
+	}
+
+	&_bottom_text {
+		display: inline-block;
+		position: relative;
+
+		i {
+			color: #ff0000;
+			font-size: 28upx;
+			display: inline-block;
+			width: 10upx;
+			height: 10upx;
+			margin-right: 5upx;
+		}
+	}
+}
+
+.a-center-child {
+	height: 66rpx;
+	line-height: 66rpx;
+	width: 240rpx;
+	font-size: 22rpx;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+.a-center-child-l {
+	background-color: #fdc100;
+	color: #ffffff;
+}
+
+.bctj-btn {
+	display: flex;
+	margin: 50rpx 0;
+
+	& .button {
+		flex: 1;
+		margin: 0 20rpx;
+		font-size: 32upx;
+		height: 80rpx;
+		color: #ffffff;
+		line-height: 80rpx;
+		border-radius: 5upx;
+		background-color: #fdc100;
+		text-align: center;
+	}
+
+	& .button:nth-of-type(2) {
+		background-color: #ff9933;
+	}
+}
+
+.isShopkeeper {
+	box-sizing: border-box;
+	width: 750rpx;
+	padding: 10rpx 30rpx 20rpx 30rpx;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1rpx solid #cccccc;
+	.isShopkeeperpro {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		.isShopkeeperlis {
+			width: 150rpx;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+}
+
+/* 关联门店 */
+.reletion-store {
+	background-color: #f8f8f8;
+	height: 72rpx;
+
+	.dot {
+		margin: 10rpx;
+		width: 18rpx;
+		height: 18rpx;
+		background-color: #6dd400;
+	}
+	.name {
+		font-size: 32rpx;
+		color: #333333;
+	}
+
+	.sub-name {
+		font-size: 28rpx;
+		color: #979797;
+	}
+}

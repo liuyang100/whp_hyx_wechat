@@ -1,0 +1,356 @@
+{
+
+	"pages": [{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/findStore/findStore",
+			"style": {
+				"navigationBarTitleText": "选择上级店铺"
+			}
+		},
+
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商品"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationStyle": "custom", // 取消默认标题
+				"enablePullDownRefresh": true // 开取下拉刷新
+			}
+		},
+		{
+			"path": "pages/branch/branch", //业务员首页
+			"style": {
+				"navigationStyle": "custom", // 取消默认标题
+				// "enablePullDownRefresh": true // 开取下拉刷新
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/index-sales-activity/index-sales-activity",
+			"style": {
+				"navigationBarTitleText": "促销活动",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/index-sales-activity/perform-report/perform-report",
+			"style": {
+				"navigationBarTitleText": "执行上报"
+			}
+		},
+		{ //促销活动详情
+			"path": "pages/index-sales-activity/sales-activity-detail/sales-activity-detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{ // 首页网店进度查看明细
+			"path": "pages/index-dpdetail/index-dpdetail",
+			"style": {
+				"navigationBarTitleText": "查看明细"
+			}
+		}, { //首页月巡店计划
+			"path": "pages/index-findstore/index-findstore",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, { // 首页Top机型
+			"path": "pages/index-ranklist/index-ranklist",
+			"style": {
+				"navigationBarTitleText": "TOP机型",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/addClient/addClient",
+			"style": {
+				"navigationBarTitleText": "客户申请"
+			}
+		}, { //添加已合作的客户建档
+			"path": "pages/add-archives/add-archives", //添加已合作的客户建档
+			"style": {
+				"navigationBarTitleText": "客户建档(已激活)"
+			}
+		},
+		{ //客户建档(未激活)
+			"path": "pages/add-archives/add-noArchives", //添加待激活的客户建档
+			"style": {
+				"navigationBarTitleText": "客户建档(未激活)"
+			}
+		},
+		{ //网点拜访
+			"path": "pages/dotVisit/dotVisit",
+			"style": {
+				"navigationBarTitleText": "网点拜访",
+				"enablePullDownRefresh": true //配置下拉刷新
+			}
+		},
+		{ //网点拜访查询
+			"path": "pages/dotQuery/dotQuery",
+			"style": {
+				"navigationBarTitleText": "网点拜访查询",
+				"enablePullDownRefresh": true //配置下拉刷新
+			}
+		},
+		{ //网店拜访
+			"path": "pages/dotScreen/dotScreen",
+			"style": {
+				"navigationBarTitleText": "分公司/人员筛选"
+			}
+		},
+		
+		{
+			"path": "pages/stores/stores", //分店主店选择
+			"style": {}
+		},
+		{
+			"path": "pages/branch-pulish/branch-pulish", // 网点拜访发布
+			"style": {
+				"navigationBarTitleText": "网点拜访发布"
+			}
+		},
+		{
+			"path": "pages/branch-pulish/branch-detail", // 看板详情
+			"style": {
+				"navigationBarTitleText": "看板详情"
+			}
+		},
+		{
+			"path": "pages/setings/setings", // 设置
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/see-customer/see-customer", //选择客户名称列表
+			"style": {
+				"navigationBarTitleText": "网点名称选择",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{ //激活客户详情
+			"path": "pages/archives-detail/archives-detail", // 客户详情
+			"style": {
+				"navigationBarTitleText": "客户详情"
+			}
+		},{
+			"path": "pages/add-userid/add-userid",
+			"style": {
+				"navigationBarTitleText": " 选择抄送人"
+			}
+		}, { //添加其他成员
+			"path": "pages/add-frequent/add-frequent",
+			"style": {
+				"navigationBarTitleText": " 添加其他成员",
+				"onReachBottomDistance": 100
+			}
+		}, { //未激活客户详情
+			"path": "pages/active-detail/unactive-detail",
+			"style": {
+				"navigationBarTitleText": " 客户详情",
+				"enablePullDownRefresh": true
+			}
+		}, { //已激活客户详情
+			"path": "pages/active-detail/active-detail",
+			"style": {
+				"navigationBarTitleText": " 客户详情"
+			}
+		}, {
+			"path": "pages/activate/unactivate",
+			"style": {
+				"navigationBarTitleText": "客户建档" // 客户建档
+			}
+		}, {
+			"path": "pages/archives-screen/archives-screen",
+			"style": {
+				"navigationBarTitleText": "终端主管筛选", // 终端主管筛选
+				"enablePullDownRefresh": true
+			}
+		},
+		{ //客户运营
+			"path": "pages/operation/operation",
+			"style": {
+				"navigationStyle": "custom" // 取消默认标题
+			}
+		},
+		{ //通知公告
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知公告"
+			}
+		}, { // 通告详情
+			"path": "pages/noticechild/noticechild",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		 { //首页广告扩展页面
+			"path": "pages/web-view/web-view",
+			"style": {}
+		}, { // 隐私协议
+			"path": "pages/privac-agreement/privac-agreement",
+			"style": {
+				"navigationBarTitleText": "惠营销用户协议"
+			}
+		},
+		{
+			"path": "pages/choose-worker/choose-worker",
+			"style": {
+				"navigationBarTitleText": "分公司/人员筛选",
+				"enablePullDownRefresh": true
+			}
+		}, { // 首页促销活动的计划上报
+			"path": "pages/index-sales-activity/add-plan/add-plan",
+			"style": {
+				"navigationBarTitleText": "计划上报"
+			}
+		}, {
+			"path": "pages/FieldClock/FieldClock",
+			"style": {
+				"navigationBarTitleText": "外勤打卡"
+			}
+		}, {
+			"path": "pages/CustomerVisit/CustomerVisit",
+			"style": {
+				"navigationBarTitleText": "客户拜访"
+			}
+		}, {
+			"path": "pages/FieldCustomerList/FieldCustomerList",
+			"style": {
+				"navigationBarTitleText": "客户门店列表",
+				"onReachBottomDistance": 80
+			}
+		}
+	    
+    ],
+	"subPackages": [{
+		"root": "kpireport",
+		"pages": [{ //KPI
+				"path": "kpireport",
+				"style": {
+					"navigationBarTitleText": "KPI汇总报表" // KPI汇总报表
+				}
+			},
+			{ // KPI分公司/人员筛选
+				"path": "dotScreen/screening-personnel",
+				"style": {
+					"navigationBarTitleText": "分公司/人员筛选"
+				}
+			},
+			{
+				"path": "my-purchase/my-purchase",
+				"style": {
+					"navigationBarTitleText": "我的采购", // KPI 我的采购
+					"backgroundColor": "#F0F0F0",
+					"onReachBottomDistance":100
+					
+				}
+			},
+			{ //我的批发分销
+				"path": "kpi-wholesale/kpi-wholesale",
+				"style": {
+					"navigationBarTitleText": "我的批发分销"
+				}
+			},
+			{
+				"path": "my-retail/my-retail",
+				"style": {
+					"navigationBarTitleText": "我的零售" // KPI 我的采购
+				}
+			},
+			{
+				"path": "my-sellout/my-sellout",
+				"style": {
+					"navigationBarTitleText": "我的sellout" // 我的sellout
+				}
+			}
+		    ,{
+                    "path" : "BrandCategoryDetail/BrandCategoryDetail",
+                    "style" : {}
+                }
+            ]
+	}],
+	"preloadRule": {
+		"pages/main/main": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"kpireport/kpireport": {
+			"network": "all",
+			"packages": ["kpireport"]
+		}
+	},
+
+	"tabBar": {
+		"color": "#9e9e9e",
+		"selectedColor": "#f8c269",
+		"backgroundColor": "#f5f5f5",
+		"list": [{
+				"pagePath": "pages/main/main",
+				"text": "首页",
+				"iconPath": "static/tabBar/tab_icon_home_normal.png",
+				"selectedIconPath": "static/tabBar/tab_icon_home_selected.png"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"text": "商品",
+				"iconPath": "static/tabBar/tab_icon_fenlei_normal.png",
+				"selectedIconPath": "static/tabBar/tab_icon_fenlei_selected.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/tabBar/tab_icon_car_normal.png",
+				"selectedIconPath": "static/tabBar/tab_icon_car_selected.png"
+			}, {
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/tabBar/tab_icon_me_normal.png",
+				"selectedIconPath": "static/tabBar/tab_icon_me_selected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fdc100"
+
+	}
+	// ,"condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式（list 的索引项）
+	// 	"list": [{
+	// 		"name": "测试",
+	// 		"path": "pages/test/test",
+	// 		"query": ""
+	// 	}]
+
+	// }
+
+}
